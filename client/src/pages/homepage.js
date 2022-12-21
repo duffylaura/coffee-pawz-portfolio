@@ -1,22 +1,39 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
+import Project from '../components/project';
 
 function Homepage() {
   return (
     <Container>
+      <br />
       <Row>
-        <Col>1 of 2</Col>
-        <Col>2 of 2</Col>
+        <Card>
+            <Card.Body>
+              Hello! My name is Laura Duffy. <br/>
+              Welcome to my portfolio page! <br/>
+              I am a software developer who is completing UC Berkeley's Coding Bootcamp! 
+            </Card.Body>
+        </Card>
       </Row>
+      <br />   
       <Row>
-        <Col>1 of 3</Col>
-        <Col>2 of 3</Col>
-        <Col>3 of 3</Col>
+        <Project />
+        <Project />
+        <Project />
       </Row>
+      <br />
+      <Row>
+        <Project />
+        <Project />
+        <Project />
+      </Row>
+    <br />
     </Container>
   );
 }
 
 export default Homepage;
+
+
