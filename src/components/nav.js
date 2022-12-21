@@ -14,10 +14,10 @@ function NavigationBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto"> 
 
-            <Nav.Link href="#About-Me" > About Me </Nav.Link>
-            <Nav.Link href="#Portfolio"> Portfolio </Nav.Link>
-            <Nav.Link href="#Resume"> Resume </Nav.Link>
-            <Nav.Link  href="#Contact"> Contact </Nav.Link>
+            <Nav.Link href="#About-Me" className="colorChangeOne" > About Me </Nav.Link>
+            <Nav.Link href="#Portfolio" className="colorChangeTwo"> Portfolio </Nav.Link>
+            <Nav.Link href="#Resume"className="colorChangeThree"> Resume </Nav.Link>
+            <Nav.Link  href="#Contact"className="colorChangeFour"> Contact </Nav.Link>
 
           </Nav>
         </Navbar.Collapse>

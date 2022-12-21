@@ -1,1 +1,23 @@
+.colorChangeOne:focus,  
+.colorChangeOne:active,
+.colorChangeOne.active {
+    background-color: #ffc60a; 
+}
 
+.colorChangeTwo:focus,  
+.colorChangeTwo:active,
+.colorChangeTwo.active {
+    background-color: #ff5500; 
+}
+
+.colorChangeThree:focus,  
+.colorChangeThree:active,
+.colorChangeThree.active {
+    background-color: #de5285; 
+}
+
+.colorChangeFour:focus,  
+.colorChangeFour:active,
+.colorChangeFour.active {
+    background-color: #a31f4f; 
+}
