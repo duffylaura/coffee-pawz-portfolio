@@ -6,9 +6,11 @@ import Project from '../components/project';
 
 function Homepage() {
   return (
-    <Container>
+    <>
+    <Container id="About">
       <br />
       <Row>
+        <h1> About Me </h1>
         <Card>
             <Card.Body>
               Hello! My name is Laura Duffy. <br/>
@@ -17,7 +19,11 @@ function Homepage() {
             </Card.Body>
         </Card>
       </Row>
-      <br />   
+      <br /> 
+    </Container>
+
+    <Container id="Portfolio">
+      <h1> Portfolio </h1>
       <Row>
         <Project />
         <Project />
@@ -31,6 +37,35 @@ function Homepage() {
       </Row>
     <br />
     </Container>
+
+    <Container id="Resume">
+    <br />
+      <Row>
+        <h1> Resume </h1>
+        <Card>
+            <Card.Body>
+                Skills: One, Two , Three, Four, Five, Six
+            </Card.Body>
+        </Card>
+      </Row>
+      <br /> 
+
+    </Container>
+
+    <Container id="Contact">
+    <br />
+      <Row>
+        <h1> Contact </h1>
+        <Card>
+            <Card.Body>
+                Insert Contact Form 
+            </Card.Body>
+        </Card>
+      </Row>
+      <br /> 
+
+    </Container>
+    </>
   );
 }
 
