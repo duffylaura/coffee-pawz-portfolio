@@ -35,7 +35,7 @@ The GIF below shows how after a user submits a contact form it is sent to the de
 
 
 ## Credits 
-Laura Duffy. [GitHub.](https://github.com/duffylaura  [Email.](lauraduffy700@gmail.com)
+Laura Duffy. [GitHub.](https://github.com/duffylaura)  [Email.](lauraduffy700@gmail.com)
 
 ## License
 MIT. 
