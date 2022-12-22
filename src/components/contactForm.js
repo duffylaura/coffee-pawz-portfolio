@@ -1,6 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 import { send } from 'emailjs-com';
+import Card from 'react-bootstrap/Card';
+//import ListGroup from 'react-bootstrap/ListGroup';
 
 const ContactForm = () => {
 
@@ -31,53 +33,35 @@ setToSend({ ...toSend, [e.target.name]: e.target.value });
 };
 
   return (
-    <div className="container mt-5">
+    <Card className="contact-card">
       <form onSubmit={onSubmit}>
-        <div className="mb-3">
-            <label className="form-label">
-                Name
-            </label>
             <input
+                class = "custom-input"
                 type='text'
                 name='from_name'
-                placeholder='from name'
+                placeholder='  Your name...'
                 value={toSend.from_name}
                 onChange={handleChange}
             />
-        </div>
-
-        <div className="mb-3">
-            <label className="form-label">
-            Email
-            </label>
             <input
-            type='email'
-            name='reply_to'
-            placeholder='Your email'
-            value={toSend.reply_to}
-            onChange={handleChange}
+                class = "custom-input"
+                type='email'
+                name='reply_to'
+                placeholder='  Your email...'
+                value={toSend.reply_to}
+                onChange={handleChange}
             />
-        </div>
-
-        <div className="mb-3">
-            <label className="form-label">
-                Message
-            </label>
             <textarea 
-            type='text'
-            name='message'
-            placeholder='Your message'
-            value={toSend.message}
-            onChange={handleChange}
+                class = "custom-input"
+                type='text'
+                name='message'
+                placeholder='  Your message...'
+                value={toSend.message}
+                onChange={handleChange}
             />
-        </div>
-
-        <br />
-        <button className="btn btn-danger" type="submit">
-        </button>
+        <button className="custom-button" type="submit"> Send </button>
       </form>
-      <br /> <br /> 
-    </div>
+    </Card>
   )
 }
 export default ContactForm

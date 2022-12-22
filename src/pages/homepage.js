@@ -92,15 +92,12 @@ function Homepage() {
       </Row>
       <br /> 
     </Container>
+
     <Container id="Contact">
-    <br />
-      <Row>
-        <h1> Contact </h1>
-        <Card>
-            <ContactForm />
-        </Card>
-      </Row>
+      <br/>
+      <h1> Contact </h1>
       <br /> 
+      <ContactForm />
     </Container>
   </>
   );

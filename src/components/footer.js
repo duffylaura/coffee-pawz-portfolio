@@ -1,15 +1,15 @@
 import React from 'react';
-// import Container from 'react-bootstrap/Container';
+// import Container from 'react-bootstrap/Container'
+import Button from 'react-bootstrap/Button';
 
 const Footer = () => (
-<footer className="page-footer font-small blue pt-4">
-    <div className="footer-copyright text-center py-3">© Laura Duffy
+<footer class="custom-footer">
+    <div className="footer-copyright text-center py-3">
+        © Laura Duffy
         <br />
-        <a href="https://github.com/duffylaura"> GitHub</a>
-        <br />
-        <a href="https://www.linkedin.com/in/laura-duffy-a14061251/"> LinkedIn</a>
-        <br />
-        <a href="https://medium.com/@lauraduffy700"> Medium Articles</a>
+        <Button className="footer-button"><a href="https://github.com/duffylaura"> GitHub</a></Button>
+        <Button className="footer-button"><a href="https://www.linkedin.com/in/laura-duffy-a14061251/"> LinkedIn</a></Button>
+        <Button className="footer-button"><a href="https://medium.com/@lauraduffy700"> Medium </a></Button>
     </div>
 </footer>
 )

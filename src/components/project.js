@@ -12,7 +12,7 @@ return (
   {/* When using map you must provide a unique key attribute to each item. Ours is `item.id` */}
   {props.proj.map(item => ( 
     <Col>
-    <Card key={item.id} className = "custom-card" style={{ width: '20rem' }} >
+    <Card key={item.id} className = "custom-card">
       <Card.Img variant="top" src= {`../img/${item.img}.png`} alt="clipart"/>
         <Card.Body>
           <Card.Title>{item.title}</Card.Title>

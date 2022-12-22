@@ -25,4 +25,45 @@
 .custom-card {
     display:inline-block;
     margin: 10%; 
+    width: 20rem; 
+    background: #FFFFFF;
+    border: 1px solid #ff55003d;
+    box-shadow:  10px 10px 10px #e0713932;
+}
+
+.contact-card {
+    padding: 2%; 
+    background: #FFFFFF;
+    border: 1px solid #ff55003d;
+    box-shadow:  10px 10px 10px #deb8598f;
+}
+
+.custom-button {
+    margin: 1%; 
+    width: 76px;
+    background: #FFFFFF;
+    border: 1px solid #a31f4f3e;
+    box-shadow: 0px 4px 4px rgba(163, 31, 79, 0.5);
+    border-radius: 139.5px;
+}
+
+.custom-input {
+    margin: 1%; 
+    width: 99%; 
+    background: #FFFFFF;
+    border: 1px solid #a31f4f3e;
+    box-shadow: 0px 4px 4px rgba(163, 31, 79, 0.5);
+    border-radius: 10px;
+}
+
+.footer-button {
+    margin: 1%;
+    width: 7rem; 
+    background: #FFFFFF;
+    border: 1px solid #deb8598f;
+    box-shadow: 0px 4px 4px #deb8598f;
+}
+
+.custom-footer {
+    margin: 5%; 
 }
