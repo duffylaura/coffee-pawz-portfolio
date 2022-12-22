@@ -1,7 +1,7 @@
 {
   "name": "src",
   "version": "0.1.0",
-  
+  "homepage" : "https://duffylaura.github.io/coffee-pawz-portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
