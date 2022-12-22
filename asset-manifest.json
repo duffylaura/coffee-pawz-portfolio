@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/coffee-pawz-portfolio/static/css/main.11cd2fb2.css",
-    "main.js": "/coffee-pawz-portfolio/static/js/main.d968f0a4.js",
-    "static/js/787.0bfccc2a.chunk.js": "/coffee-pawz-portfolio/static/js/787.0bfccc2a.chunk.js",
-    "static/media/octocat.png": "/coffee-pawz-portfolio/static/media/octocat.5fec645e4af23ad7f3d4.png",
-    "index.html": "/coffee-pawz-portfolio/index.html",
-    "main.11cd2fb2.css.map": "/coffee-pawz-portfolio/static/css/main.11cd2fb2.css.map",
-    "main.d968f0a4.js.map": "/coffee-pawz-portfolio/static/js/main.d968f0a4.js.map",
-    "787.0bfccc2a.chunk.js.map": "/coffee-pawz-portfolio/static/js/787.0bfccc2a.chunk.js.map"
+    "main.css": "/static/css/main.11cd2fb2.css",
+    "main.js": "/static/js/main.940a1533.js",
+    "static/js/787.0bfccc2a.chunk.js": "/static/js/787.0bfccc2a.chunk.js",
+    "static/media/octocat.png": "/static/media/octocat.5fec645e4af23ad7f3d4.png",
+    "index.html": "/index.html",
+    "main.11cd2fb2.css.map": "/static/css/main.11cd2fb2.css.map",
+    "main.940a1533.js.map": "/static/js/main.940a1533.js.map",
+    "787.0bfccc2a.chunk.js.map": "/static/js/787.0bfccc2a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11cd2fb2.css",
-    "static/js/main.d968f0a4.js"
+    "static/js/main.940a1533.js"
   ]
 }
