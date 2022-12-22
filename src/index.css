@@ -22,3 +22,7 @@
     background-color: #a31f4f; 
 }
 
+.custom-card {
+    display:inline-block;
+    margin: 10%; 
+}
