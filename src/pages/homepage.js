@@ -5,7 +5,8 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Project from '../components/project';
 import MyOctocat from '../assets/octocat.png';
-import Image from 'react-bootstrap/Image'
+import Image from 'react-bootstrap/Image';
+import ContactForm from '../components/contactForm';
 
 const proj = [
   {id: 1, 
@@ -96,9 +97,7 @@ function Homepage() {
       <Row>
         <h1> Contact </h1>
         <Card>
-            <Card.Body>
-                Insert Contact Form 
-            </Card.Body>
+            <ContactForm />
         </Card>
       </Row>
       <br /> 
