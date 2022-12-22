@@ -2,8 +2,17 @@ import React from 'react';
 import { useState } from 'react';
 import { send } from 'emailjs-com';
 import Card from 'react-bootstrap/Card';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 
 const ContactForm = () => {
+
+const [show, setShow] = useState(false);
+const handleClose = () => {
+    setShow(false);
+    window.location.reload(false);
+}
+const handleShow = () => setShow(true); 
 
 const [toSend, setToSend] = useState({
     from_name: '',
@@ -58,8 +67,21 @@ setToSend({ ...toSend, [e.target.name]: e.target.value });
                 value={toSend.message}
                 onChange={handleChange}
             />
-        <button className="custom-button" type="submit"> Send </button>
+        <button className="custom-button" type="submit" onClick={handleShow}> Send </button>
       </form>
+
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title> Your note has been sent!</Modal.Title>
+        </Modal.Header>
+        <Modal.Body> Laura will get back to you as soon as possible! Thank you for reaching out!</Modal.Body>
+        <Modal.Footer>
+          <Button onClick={handleClose}>
+            Okay!
+          </Button>
+        </Modal.Footer>
+      </Modal>
+
     </Card>
   )
 }
