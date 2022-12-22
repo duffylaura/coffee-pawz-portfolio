@@ -6,7 +6,9 @@ import Row from 'react-bootstrap/Row';
 function Skills() {
     return (
         <Card className="skills-card">
-        <Card.Title> Skills: </Card.Title>
+        <center>
+            <Card.Title> Skills: </Card.Title>
+        </center>
         <Row>
         <div className="code1">Full Stack Web Development </div>
         <div className="code1">HTML5</div>

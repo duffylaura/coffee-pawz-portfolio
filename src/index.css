@@ -49,16 +49,16 @@
     box-shadow:  10px 10px 10px #3d6d874f;
 }
 
-.skills-card {
-    padding: 2%; 
+.download-button{
+    color: black;
     background: rgba(76, 154, 227, 0.052); 
     border: 1px solid #deb85939;
     box-shadow:  10px 10px 10px #3d6d874f;
 }
 
-.contact-card {
+.skills-card {
     padding: 2%; 
-    background: #FFFFFF;
+    background: rgba(76, 154, 227, 0.052); 
     border: 1px solid #deb85939;
     box-shadow:  10px 10px 10px #3d6d874f;
 }
@@ -72,26 +72,7 @@
     border-radius: 139.5px;
 }
 
-.custom-input {
-    margin: 1%; 
-    width: 99%; 
-    background: #FFFFFF;
-    border: 1px solid #a31f4f18;
-    box-shadow: 0px 4px 4px #3d6d874f;
-    border-radius: 10px;
-}
 
-.footer-button {
-    margin: 1%;
-    width: 7rem; 
-    background: #FFFFFF;
-    border: 1px solid #3d6d874f;
-    box-shadow: 0px 4px 4px #deb8598f;
-}
-
-.custom-footer {
-    margin: 5%; 
-}
 
 .code1 {
     margin: 1%;
@@ -154,4 +135,32 @@
     background: #FFFFFF;
     border: 1px solid #4d56929a;
     box-shadow: 0px 4px 4px #4d56929a;  
+}
+
+.contact-card {
+    padding: 2%; 
+    background: #FFFFFF;
+    border: 1px solid #deb85939;
+    box-shadow:  10px 10px 10px #3d6d874f;
+}
+
+.custom-input {
+    margin: 1%; 
+    width: 99%; 
+    background: #FFFFFF;
+    border: 1px solid #a31f4f18;
+    box-shadow: 0px 4px 4px #3d6d874f;
+    border-radius: 10px;
+}
+
+.footer-button {
+    margin: 1%;
+    width: 7rem; 
+    background: #FFFFFF;
+    border: 1px solid #3d6d874f;
+    box-shadow: 0px 4px 4px #deb8598f;
+}
+
+.custom-footer {
+    margin: 5%; 
 }
