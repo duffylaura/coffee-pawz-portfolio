@@ -12,7 +12,7 @@ return (
   {props.proj.map(item => ( 
     <Col>
     <Card key={item.id} className = "custom-card">
-      <Card.Img variant="top" src= {`./img/${item.img}.png`} alt="clipart"/>
+      <Card.Img variant="top" src= {`../img/${item.img}.png`} alt="clipart"/>
         <Card.Body>
           <Card.Title>{item.title}</Card.Title>
           <Card.Text> {item.about}</Card.Text>
