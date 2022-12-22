@@ -22,7 +22,9 @@ The User Experience is intuitive and easy to navigate; the User Interface style 
 None needed! Just click on the [deployed link](https://duffylaura.github.io/coffee-pawz-portfolio/) and enjoy!
 
 ## Usage 
-Text. 
+![usage](https://user-images.githubusercontent.com/112783308/209244734-50cd2916-5b1b-4248-ae25-344cf8d7297a.gif)
+
+Log on to this [link](https://duffylaura.github.io/coffee-pawz-portfolio/) to experience Coffee Pawz's portfolio and resume! Click around using the navigation tabs or scroll down the page. Click around her portfolio, checking out the deployed links and the repositories of each project! Finally, download her resume by pressing THE BUTTON! Then send a note to Laura using the contact form! Can't wait to hear from you! 
 
 ## Code Snippets
 The Contact Form uses EmailJS to forward emails to the developers email address. EmailJS is a JavaScript library rhtat helps send emails using only client-side technologies. To install the EmailJS package the developer uses the `npm i emailjs-com` in their CLI. They then connect their email account to EmailJS and connect their EmailJS account within their code, as can be seen below. 
