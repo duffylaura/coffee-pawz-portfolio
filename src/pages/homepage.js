@@ -4,6 +4,7 @@ import About from '../components/about';
 import Project from '../components/project';
 import ContactForm from '../components/contactForm';
 import Skills from '../components/skills';
+import Pdf from '../components/pdf';
 
 const proj = [
   {id: 1, 
@@ -66,13 +67,15 @@ function Homepage() {
 
     <Container id="Resume">
       <h1> Resume. </h1>
+      <Pdf />
       <Skills />
-    </Container>
+    </Container> <br/><br/><br/>
 
-    <Container id="Contact"> <br/>
-      <h1> Contact. </h1> <br /> 
+    <Container id="Contact"> 
+      <h1> Contact. </h1>
       <ContactForm />
     </Container>
+
   </Container>
   );
 }
