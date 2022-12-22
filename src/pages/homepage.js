@@ -1,12 +1,9 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
+import About from '../components/about';
 import Project from '../components/project';
-import MyOctocat from '../assets/octocat.png';
-import Image from 'react-bootstrap/Image';
 import ContactForm from '../components/contactForm';
+import Skills from '../components/skills';
 
 const proj = [
   {id: 1, 
@@ -56,50 +53,27 @@ const proj = [
 
 function Homepage() {
   return (
-  <>
+  <Container id="Home">
+
     <Container id="About">
-      <br /><br /> <br />
-      <Row className="justify-content-md-center">
-        <h1> About Me </h1>
-        <Col s>
-            <Image src={MyOctocat} alt="Custom octocat" 
-            className = {{ float: 'right'}}
-            style={{ width: '15rem' }} />
-        </Col>
-        <Col lg>
-            <br />
-            <p>   
-              Hello! My name is Laura Duffy. Welcome to my portfolio page! I am a software developer who is completing UC Berkeley's Coding Bootcamp! 
-            </p>
-        </Col>
-        <Col s></Col>
-      </Row>
-      <br /> <br /> <br />
-    </Container>
-    <Container id="Portfolio">
-      <h1> Portfolio </h1>
-        <Project proj = {proj} />
-    </Container>
-    <Container id="Resume">
-    <br />
-      <Row>
-        <h1> Resume </h1>
-        <Card>
-            <Card.Body>
-                Skills: One, Two , Three, Four, Five, Six
-            </Card.Body>
-        </Card>
-      </Row>
-      <br /> 
+      <About />
     </Container>
 
-    <Container id="Contact">
-      <br/>
-      <h1> Contact </h1>
-      <br /> 
+    <Container id="Portfolio">
+      <h1> Portfolio. </h1>
+      <Project proj = {proj} />
+    </Container>
+
+    <Container id="Resume">
+      <h1> Resume. </h1>
+      <Skills />
+    </Container>
+
+    <Container id="Contact"> <br/>
+      <h1> Contact. </h1> <br /> 
       <ContactForm />
     </Container>
-  </>
+  </Container>
   );
 }
 

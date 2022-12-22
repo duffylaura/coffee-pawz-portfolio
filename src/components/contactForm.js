@@ -2,7 +2,6 @@ import React from 'react';
 import { useState } from 'react';
 import { send } from 'emailjs-com';
 import Card from 'react-bootstrap/Card';
-//import ListGroup from 'react-bootstrap/ListGroup';
 
 const ContactForm = () => {
 

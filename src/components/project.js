@@ -2,7 +2,6 @@ import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
-//const placeholder = require('../assets/red-smoke.jpg');
 
 function Project(props) {
 
