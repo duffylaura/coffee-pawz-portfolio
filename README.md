@@ -2,7 +2,7 @@
 
 ## Description 
 
-This Portfolio web application uses React to render content and is deployed to GitHub Pages using the gh-pages npm package. The application uses a single Header component, with a Navigation component, and a single Footer component. The Navigation component allows the user to click on tabs (for example, "Portfolio") that will then conditionally render that section. The Portfolio section makes use of a Project Component that is used multiple times. 
+This Portfolio web application uses React to render content and is deployed to GitHub Pages using the `gh-pages npm` package. The application uses a single Header component, with a Navigation component, and a single Footer component. The Navigation component allows the user to click on tabs (for example, "Portfolio") that will then conditionally render that section. The Portfolio section makes use of a Project Component that is used multiple times. 
 
 The User Experience is intuitive and easy to navigate; the User Interface style is clean and polished, using a rainbow accented color scheme with a kawaii aesthetic. 
 
