@@ -15,6 +15,8 @@ const About = () => {
             <Image src={MyOctocat} alt="Custom octocat" className = "profile-image"/>
             <br/><br/>
             <p> Hello! My name is Laura Duffy and I am a software developer. Welcome to my portfolio page!
+                I am a software engineer specializing in frontend engineering, design, and UX/UI. 
+            </p>
             </Container>
         </Row> <br/> <br/> <br/>
         </Container>
